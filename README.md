@@ -1,8 +1,14 @@
-# What-The-Flexbox
-initial the repository
+# What The Flexbox
+CSS Flexbox Layout Module
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+reference:
+http://flexbox.io/
+https://www.w3schools.com/css/css3_flexbox.asp
 
 ## 1.Introduction to Flexbox
-
+ **Make it RWD easily.**
+ - display:flex;
+ 
 ## 2.Working with Flexbox flex-direction
 
 ## 3.Wrapping elements with Flexbox
