@@ -34,7 +34,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   border:10px solid goldenrod;
   min-height:100vh;
   flex-wrap:wrap;
-  /* flex direction, flex-wrap controll the layout*/
+  /* flex direction, flex-wrap control the layout*/
 }
 
 .box {
