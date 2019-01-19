@@ -29,9 +29,23 @@ reference:
 	flex-wrap: nowrap | wrap | wrap-reverse;
 }
 ```
-## 4-Flexbox Ordering
+## 4.Flexbox Ordering
 ```
 .item {
 	order: <integer>;  /* default is 0 */
+}
+```
+## 5.Flexbox justify-content
+Alignment and Centering with justify-content.
+```
+.container {
+	justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+}
+```
+## 6.Flexbox align-content
+Alignment and Centering with align-content.
+```
+.container {
+	align-items: flex-start | flex-end | center | baseline | stretch;
 }
 ```
