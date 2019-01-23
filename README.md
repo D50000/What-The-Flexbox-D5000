@@ -42,10 +42,24 @@ Alignment and Centering with justify-content.
 	justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
 }
 ```
-## 6.Flexbox align-content
-Alignment and Centering with align-content.
+## 6.Flexbox align-items
+Alignment and Centering with align-items.
 ```
 .container {
 	align-items: flex-start | flex-end | center | baseline | stretch;
+}
+```
+## 7.align-content
+Alignment and Centering with align-content.
+```
+.container {
+	align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+```
+## 8.align-self
+Alignment and Centering with align-self.
+```
+.item {
+	align-self: auto | flex-start | flex-end | center | baseline | stretch;
 }
 ```
