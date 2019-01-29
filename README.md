@@ -63,3 +63,22 @@ Alignment and Centering with align-self.
 	align-self: auto | flex-start | flex-end | center | baseline | stretch;
 }
 ```
+## 9.Flexbox Box-sizing
+When there has extra space it will auto resize the element, and the default size of element is flex 1.
+```
+.item {
+	flex:1;
+}
+```
+## 10.Flexbox flex-grow, flex-shrink and flex-basis
+flex: 1 >> is a shorthand of properties below.
+```
+.item {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flew-basis: 1;
+}
+```
+## 11.Flexbox flex-basis and wrapping work together
+The container flex-direction, flex-warp will work with the flex-grow, flex-shrink, flex-basis.
+
