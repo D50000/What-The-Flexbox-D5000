@@ -33,7 +33,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 /* 
-flex: 1 >> is a bundle of proterties below >>> flex:10 5 400px;
+flex: 1 >> is a bundle of properties below >>> flex:10 5 400px;
 flex-grow: 1;
 flex-shrink: 1;
 flew-basis: 1;
