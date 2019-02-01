@@ -22,6 +22,7 @@ reference:
 	flex-direction: row | row-reverse | column | column-reverse;
 }
 ```
+
 ## 3.Wrapping elements with Flexbox
 **flex wrap control the layout, default is `nowrap `.**
 ```
@@ -29,12 +30,14 @@ reference:
 	flex-wrap: nowrap | wrap | wrap-reverse;
 }
 ```
+
 ## 4.Flexbox Ordering
 ```
 .item {
 	order: <integer>;  /* default is 0 */
 }
 ```
+
 ## 5.Flexbox justify-content
 Alignment and Centering with justify-content.
 ```
@@ -42,6 +45,7 @@ Alignment and Centering with justify-content.
 	justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
 }
 ```
+
 ## 6.Flexbox align-items
 Alignment and Centering with align-items.
 ```
@@ -49,6 +53,7 @@ Alignment and Centering with align-items.
 	align-items: flex-start | flex-end | center | baseline | stretch;
 }
 ```
+
 ## 7.align-content
 Alignment and Centering with align-content.
 ```
@@ -56,6 +61,7 @@ Alignment and Centering with align-content.
 	align-content: flex-start | flex-end | center | space-between | space-around | stretch;
 }
 ```
+
 ## 8.align-self
 Alignment and Centering with align-self.
 ```
@@ -63,6 +69,7 @@ Alignment and Centering with align-self.
 	align-self: auto | flex-start | flex-end | center | baseline | stretch;
 }
 ```
+
 ## 9.Flexbox Box-sizing
 When there has extra space it will auto resize the element, and the default size of element is flex 1.
 ```
@@ -70,6 +77,7 @@ When there has extra space it will auto resize the element, and the default size
 	flex:1;
 }
 ```
+
 ## 10.Flexbox flex-grow, flex-shrink and flex-basis
 flex: 1 >> is a shorthand of properties below.
 ```
@@ -79,6 +87,31 @@ flex: 1 >> is a shorthand of properties below.
 	flew-basis: 1;
 }
 ```
+
 ## 11.Flexbox flex-basis and wrapping work together
 The container flex-direction, flex-warp will work with the flex-grow, flex-shrink, flex-basis.
+## 12.Cross Browser Flexbox Support and Autoprefixer
+Autoprefixer for the CSS Flexbox to support different version of browsers.
 
+ - Install the `node`, `nmp init` (in your project)
+ - Install `gulp -g`, `touch gulp.js`(create a file)
+ - Install `gulp --save-dev`, Install `gulp-autoprefixer --save-dev`
+ - Setting up gulp.js and auto build.
+
+## 13.Pure Flexbox navigation code along
+We can build a PWD navigation menu bar with pure Flexbox.
+
+## 14.Mobile content reordering with Flexbox
+Use Media Queries to reordering the Flexbox items.
+```
+@media all and (max-width:500px) {
+	/* Reorder items */
+	.wrapper > * {
+		order:999;
+	}
+	/* Nav */
+	.flex-nav {
+		order:1; /* Default is 0, and it will order first */
+	}
+}
+```
