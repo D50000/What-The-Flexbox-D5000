@@ -24,7 +24,7 @@ reference:
 ```
 
 ## 3.Wrapping elements with Flexbox
-**flex wrap control the layout, default is `nowrap `.**
+**flex wrap control the layout, default is `nowrap `** (single-line which may cause the container to overflow).
 ```
 .container {
 	flex-wrap: nowrap | wrap | wrap-reverse;
@@ -39,7 +39,7 @@ reference:
 ```
 
 ## 5.Flexbox justify-content
-Alignment and Centering with justify-content.
+Alignment and Centering with justify-content.According to the **main axis**.
 ```
 .container {
 	justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
@@ -47,7 +47,7 @@ Alignment and Centering with justify-content.
 ```
 
 ## 6.Flexbox align-items
-Alignment and Centering with align-items.
+Alignment and Centering with align-items.According to the **cross axis**.
 ```
 .container {
 	align-items: flex-start | flex-end | center | baseline | stretch;
@@ -55,7 +55,7 @@ Alignment and Centering with align-items.
 ```
 
 ## 7.align-content
-Alignment and Centering with align-content.
+Alignment and Centering with align-content.For the **content inside** the flex item.
 ```
 .container {
 	align-content: flex-start | flex-end | center | space-between | space-around | stretch;
@@ -115,3 +115,9 @@ Use Media Queries to reordering the Flexbox items.
 	}
 }
 ```
+
+## 15-Nesting Flexbox for vertical and horizontal centering with Flexbox
+Nesting Flexbox elements with **justify-content**,  **align-items**, **align-content**.
+
+## 16-Flexbox Pricing Grid
+Using Flexbox with **flex-wrap** to control the layout in multi-lines.
