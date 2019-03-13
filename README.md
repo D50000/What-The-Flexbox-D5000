@@ -90,6 +90,7 @@ flex: 1 >> is a shorthand of properties below.
 
 ## 11.Flexbox flex-basis and wrapping work together
 The container flex-direction, flex-warp will work with the flex-grow, flex-shrink, flex-basis.
+
 ## 12.Cross Browser Flexbox Support and Autoprefixer
 Autoprefixer for the CSS Flexbox to support different version of browsers.
 
@@ -121,3 +122,16 @@ Nesting Flexbox elements with **justify-content**,  **align-items**, **align-con
 
 ## 16-Flexbox Pricing Grid
 Using Flexbox with **flex-wrap** to control the layout in multi-lines.
+
+## 17-Equal height columns and leftover elements
+A example of Equal height columns and leftover elements layout.
+```
+flex-wrap:wrap;  //wrap for multiple lines
+flex: 1  1  calc(33.33%  -  20px);  //set variable flex-basis
+```
+
+## 18-Flexbox single line form
+A useful example for one row Flexbox form.
+
+## 19-Create a mobile app layout with Flexbox
+A example of mobile app layout.The point is the nest **flexbox structure** and the **flex-direction**.
